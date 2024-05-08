@@ -1,0 +1,34 @@
+body{
+    background: hsl(216, 50%, 16%);
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    /*color: #53e3a6; 
+    background: #5c5ea4;
+   
+    background-color: hsl(216, 50%, 16%);*/
+    background-color:  rgb(87, 120, 158);
+    box-shadow: 0 0 5px rgba(244, 240, 240, 0.1);
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: #fff; /* Adjusted heading color */
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 150;
+    color: #fff; /* Adjusted heading color */
+}
+button{
+    color: #101211;
+}
+button:hover {
+    background-color: rgb(245, 247, 249);
+}

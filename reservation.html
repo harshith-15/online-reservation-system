@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Reservation</title>
+  <link rel="stylesheet" href="rese.css">
+</head>
+<body>
+  <h1>Train Reservation</h1>
+  <form id="reservationForm">
+    <div class="form-group">
+      <label for="origin">Origin Station:</label>
+      <select name="origin" id="origin" required>
+        <option value="">Select Station</option>
+        <option value="Secunderabad">Secunderabad</option>
+        <option value="Kachiguda">Kachiguda</option>
+        <option value="Warangal">Warangal</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="destination">Destination Station:</label>
+      <select name="destination" id="destination" required>
+        <option value="">Select Station</option>
+        <option value="chennai">Chennai</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Banglore">Banglore</option>
+        <option value="Delhi">Delhi</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="departureDate">Departure Date:</label>
+      <input type="date" id="departureDate" name="departureDate" required>
+    </div>
+    <div class="form-group">
+      <label for="passengers">Number of Passengers:</label>
+      <select name="passengers" id="passengers" required>
+        <option value="">Select Number</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="class">Train Class:</label>
+      <select name="tclass" id="tclass" required>
+        <option value="">Select Class</option>
+        <option value="Sleeper">Sleeper</option>
+        <option value="AC Chair Car">AC Chair Car</option>
+      </select>
+    </div>
+    <button type="submit" id="submitButton">Insert</button>
+  </form>
+
+  
+  
+
+  <script src="reservation.js"></script>
+</body>
+</html>

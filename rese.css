@@ -1,0 +1,116 @@
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    background: #50a3a2; /* Set the background color for the entire page */
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: #fff; /* Adjusted heading color */
+}
+
+form {
+    padding: 20px 0;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+input[type="email"] {
+    display: block;
+    appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 10px auto; /* Added margin */
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+
+select:hover,
+input[type="date"]:hover,
+input[type="text"]:hover,
+input[type="email"]:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+select:focus,
+input[type="date"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    background-color: rgb(87, 120, 158);
+    width: 300px;
+    color: #050505;
+}
+
+
+button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #53e3a6;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    margin: 0 auto; /* Centers the button horizontally */
+}
+
+button:hover {
+    background-color: rgb(245, 247, 249);
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff; /* Adjusted paragraph color */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
