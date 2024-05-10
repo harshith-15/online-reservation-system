@@ -1,0 +1,16 @@
+/* Styles for form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px; /* Adjust as needed */
+}
+
+.form-group select,
+.form-group input {
+    width: calc(60px); /* Adjust as needed */
+}
+
+/* Optional: Adjust styles for select and input fields as needed */

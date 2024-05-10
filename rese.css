@@ -10,27 +10,49 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
     font-weight: 300;
-    background: #50a3a2; /* Set the background color for the entire page */
-    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    /*background: #50a3a2;  Set the background color for the entire page */
+    background-color: hsl(216, 50%, 16%);
+    /*background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
     background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
     background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
     background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    */
 }
 
 .container {
-    max-width: 400px;
+    background-color: rgb(11, 31, 54);
+    max-width: 800px;
     margin: 100px auto;
     padding: 20px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(14, 3, 3, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
+.form-group label {
+    flex: 0 0 150px; /* Adjust label width as needed */
+    margin-right: 50px;
+    margin-left: 40px; /* Adjust label and input/select spacing */
+}
+
+.form-group select,
+.form-group input {
+    flex: 1;
+    width: calc(70px);
+    /*width:100px;
+    margin-right: 50px; /* Input/select takes remaining space */
+}
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
     font-weight: 200;
-    color: #fff; /* Adjusted heading color */
+    color: #fff; 
+    text-align: center; /* Adjusted heading color */
 }
 
 form {
@@ -72,7 +94,26 @@ input[type="email"]:focus {
     width: 300px;
     color: #050505;
 }
+#submitButton {
+    background-color: #e6e6e9; /* Green */
+    border: none;
+    color: rgb(19, 13, 13);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
 
+/* Hover effect */
+#submitButton:hover {
+    background-color: rgb(169, 174, 180);
+    border: 2px solid #060706; /* Darker Green */
+}
 
 button {
     appearance: none;
@@ -80,7 +121,7 @@ button {
     background-color: white;
     border: 0;
     padding: 10px 15px;
-    color: #53e3a6;
+    color: #0f1010;
     border-radius: 3px;
     width: 250px;
     cursor: pointer;
@@ -91,6 +132,7 @@ button {
 
 button:hover {
     background-color: rgb(245, 247, 249);
+    text-decoration: underline;
 }
 
 .error {
