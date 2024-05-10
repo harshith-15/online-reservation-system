@@ -9,11 +9,13 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     font-weight: 300;
-    background: #50a3a2; /* Set the background color for the entire page */
+    background-color: hsl(216, 50%, 16%);
+    /*
+    background: #50a3a2; /* Set the background color for the entire page 
     background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
     background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
     background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);*/
 }
 
 .container {
@@ -22,13 +24,15 @@ body {
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(11, 31, 54);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
-    font-weight: 200;
+    font-weight: 150;
 }
 
 form {
@@ -62,7 +66,7 @@ input[type="text"]:focus,
 input[type="password"]:focus {
     background-color: white;
     width: 300px;
-    color: #53e3a6;
+    color: #000804;
 }
 
 button {
@@ -71,7 +75,7 @@ button {
     background-color: white;
     border: 0;
     padding: 10px 15px;
-    color: #53e3a6;
+    color: #131b18;
     border-radius: 3px;
     width: 250px;
     cursor: pointer;
@@ -80,7 +84,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(245, 247, 249);
+    background-color: rgb(88, 151, 183);
 }
 
 .error {

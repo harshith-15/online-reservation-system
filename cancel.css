@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.container {
+    background-color: rgb(11, 31, 54);
+    max-width: 500px;
+    max-height: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 150;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+select:focus,
+input[type="date"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    background-color: rgb(194, 198, 202);
+    width: 100%; /* Adjusted width */
+    color: #100101;
+}
+
+button {
+    background-color: #c2c7cb; /* Moved button styles to the button selector */
+    color: #0e0101;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+button:hover {
+    background-color: rgb(88, 151, 183);
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.message {
+    text-align: center;
+}
