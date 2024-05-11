@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Dummy authentication logic
-        if (username === 'admin' && password === 'password') {
+       if (username === 'admin' && password === 'password') {
             // Redirect to reservation page
             window.location.href = 'reservation.html';
         } else {
@@ -24,8 +24,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Reservation form
-    
-
-    
 });
