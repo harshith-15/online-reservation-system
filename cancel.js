@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
         popup.style.display = "none";
         inputField.value = "";
     }
+    function res(){
+        window.location.href="reservation.html";
+    }
+    let rs=document.querySelector('#popup');
+    rs.addEventListener('click',res);
+    
     cancelBtn.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent the default form submission
         

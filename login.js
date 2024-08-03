@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Dummy authentication logic
-       if (username === 'admin' && password === 'password') {
+        if (username.trim() !== '' && password.trim() !== '') {
             // Redirect to reservation page
             window.location.href = 'reservation.html';
         } else {
             loginError.textContent = 'Invalid username or password.';
         }
-    });
+    });        
 
 });
